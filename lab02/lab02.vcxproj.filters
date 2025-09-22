@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="core\Application.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\DhParam.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\InverseKinematics.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\JointedLink.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\PidController.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Robot.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="meshes\BoxMesh.cpp">
+      <Filter>meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="meshes\CylinderMesh.cpp">
+      <Filter>meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="meshes\JointedLinkMesh.cpp">
+      <Filter>meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="meshes\Mesh.cpp">
+      <Filter>meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="meshes\SphereMesh.cpp">
+      <Filter>meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="rendering\Camera.cpp">
+      <Filter>rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\robotun_lib\third_lib\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\robotun_lib\third_lib\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\robotun_lib\third_lib\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\robotun_lib\third_lib\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\robotun_lib\third_lib\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\robotun_lib\third_lib\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\robotun_lib\third_lib\imguizmo\ImGuizmo.cpp">
+      <Filter>imguizamo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{bcbce893-e13b-4916-8054-ab61d43a72c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="meshes">
+      <UniqueIdentifier>{ec818e49-d4f5-4cf8-9326-2af9d05bdd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rendering">
+      <UniqueIdentifier>{fd418fdf-b677-4fc4-9748-7ea9c21808cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{82997f25-edc6-4d19-a72a-036f9a8a7f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{e342601b-c7d0-4c9d-acf1-38acd49cb68b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl">
+      <UniqueIdentifier>{c15e4370-6372-429d-8fe3-5bdf35c56fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguizamo">
+      <UniqueIdentifier>{06ceb999-7f28-42e6-a0ac-3eb0b2ab9bfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\Application.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\DhParam.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Event.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\EventDispatcher.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\InverseKinematics.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\JointedLink.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\PidController.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Robot.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Utility.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes\BoxMesh.hpp">
+      <Filter>meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes\CylinderMesh.hpp">
+      <Filter>meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes\JointedLinkMesh.hpp">
+      <Filter>meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes\Mesh.hpp">
+      <Filter>meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="meshes\SphereMesh.hpp">
+      <Filter>meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\Camera.hpp">
+      <Filter>rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering\Shader.hpp">
+      <Filter>rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\params.txt">
+      <Filter>resource</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
